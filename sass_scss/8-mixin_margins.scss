@@ -1,0 +1,13 @@
+/* sass mixin and their usage */
+@mixin margin($size) {
+    margin-left: $size;
+    margin-right: $size;
+}
+
+body {
+    @include margin($size: 10px);
+}
+
+div {
+    @include margin($size: 15px);
+}
