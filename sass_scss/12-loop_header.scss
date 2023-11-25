@@ -1,0 +1,6 @@
+/* create a loop of tags in sass */
+@for $num from 1 through 5 {
+    h#{$num} {
+	font-size: #{$num}px;
+    }
+}
