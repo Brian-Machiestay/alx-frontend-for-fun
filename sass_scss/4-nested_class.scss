@@ -1,0 +1,10 @@
+/* sass nested class */
+$txt-color-bd: #3D3D3D;
+$txt-color-rd: #FF0000;
+
+body {
+    color: $txt-color-bd;
+    .red {
+	color: $txt-color-rd;
+    }
+}
