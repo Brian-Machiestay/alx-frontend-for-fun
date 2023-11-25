@@ -1,0 +1,5 @@
+/* sort a list and print in debug */
+@import '103-sort_list';
+@use '@sass-fairy/list';
+
+@debug list.sort($list_to_sort);
