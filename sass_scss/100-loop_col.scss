@@ -1,8 +1,6 @@
 /* create classes with different width */
-@use "sass:math";
-
 @for $num from 1 through 4 {
     .col-#{$num} {
-	width: math.div(100%, $num);
+	width: 100% / $num;
     }
 }
