@@ -1,0 +1,19 @@
+/* more media queries with sass */
+$list: 960px 640px 320px;
+$h1-font: 20;
+h1 {
+    font-size: 20px;
+    @each $li in $list {
+	@media screen and (max-width: $li) {
+	    & {
+		font-size: $h1-font - 2px;
+		$h1-font: $h1-font - 2px;
+		@if $li == 320px {
+		    &.small {
+			color: #1D1D1D;
+		    }
+		}
+	    }
+	}
+    }
+}
