@@ -1,0 +1,10 @@
+/* sass nest children */
+$txt-color-bd: #3D3D3D;
+$txt-color-chd: #FF0000;
+
+body {
+    color: $txt-color-bd;
+    > .red {
+	color: $txt-color-chd;
+    }
+}
