@@ -1,0 +1,10 @@
+/* sass nested hover styles */
+$btn-color: #FF0000;
+$btn-color-hover: #00FF00;
+
+button {
+    color: $btn-color;
+    &:hover {
+	color: $btn-color-hover;
+    }
+}
